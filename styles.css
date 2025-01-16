@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 50px;
+    background-color: #FAF9F6;
 }
 
 #search-container {
@@ -28,4 +29,5 @@ input {
 
 #route, #emissions {
     font-size: 18px;
+    color: #111111;
 }
