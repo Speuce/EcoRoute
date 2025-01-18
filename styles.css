@@ -2,10 +2,14 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 50px;
+    background-color:#bbbfbe;
 }
 
 #search-container {
-    margin-bottom: 30px;
+    margin: 40px;
+    padding: 15px;
+    background-color:#e4ebe8;
+    width:67%;
 }
 
 label {
@@ -15,11 +19,15 @@ label {
 input {
     margin-right: 20px;
     padding: 5px;
+    font-size: 15px;
+    border: 1px solid #cedced;
 }
 
 #searchBtn {
     padding: 10px 20px;
     font-size: 16px;
+    background-color: #77aaed;
+    margin-left: 17px;
 }
 
 #result-container {
