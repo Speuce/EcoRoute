@@ -6,6 +6,8 @@ body {
 
 #search-container {
     margin-bottom: 30px;
+    background-color: darkgray;
+    padding: 20px;
 }
 
 label {
