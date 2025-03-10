@@ -1,7 +1,16 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin: 20px;
+    padding: 5%;
+    background-color: #746ba4;
+    outline: #333;
 }
 
 #search-container {
