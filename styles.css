@@ -6,6 +6,7 @@ body {
 
 #search-container {
     margin-bottom: 30px;
+    background-color: B0E2FF;
 }
 
 label {
@@ -20,10 +21,12 @@ input {
 #searchBtn {
     padding: 10px 20px;
     font-size: 16px;
+    background-color: 27F587;
 }
 
 #result-container {
     margin-top: 40px;
+    background-color: B0E2FF;
 }
 
 #route, #emissions {
