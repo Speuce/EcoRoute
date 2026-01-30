@@ -1,5 +1,11 @@
 window.routes = [
+    // Made city winnipeg (WPG)
+    {"from": "LAX", "to": "WPG", "co2": 300},
+    {"from": "ORD", "to": "WPG", "co2": 400},
+    {"from": "WPG", "to": "ATL", "co2": 200},
+    {"from": "DFW", "to": "WPG", "co2": 450},
     {"from": "JFK", "to": "LAX", "co2": 500},
+    {"from": "WPG", "to": "JFK", "co2": 550},
     {"from": "JFK", "to": "ORD", "co2": 200},
     {"from": "ORD", "to": "LAX", "co2": 300},
     {"from": "JFK", "to": "ATL", "co2": 250},
