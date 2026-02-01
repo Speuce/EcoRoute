@@ -11,5 +11,11 @@ window.routes = [
     {"from": "SFO", "to": "LAX", "co2": 100},
     {"from": "JFK", "to": "SFO", "co2": 550},
     {"from": "SFO", "to": "SEA", "co2": 120},
-    {"from": "SEA", "to": "LAX", "co2": 200}
+    {"from": "SEA", "to": "LAX", "co2": 200},
+    // Added city: MIA (Miami) with new routes
+    {"from": "JFK", "to": "MIA", "co2": 220},
+    {"from": "MIA", "to": "LAX", "co2": 420},
+    {"from": "MIA", "to": "ATL", "co2": 160},
+    {"from": "MIA", "to": "DFW", "co2": 210},
+    {"from": "MIA", "to": "SEA", "co2": 380}
 ]
