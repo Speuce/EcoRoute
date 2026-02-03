@@ -11,5 +11,12 @@ window.routes = [
     {"from": "SFO", "to": "LAX", "co2": 100},
     {"from": "JFK", "to": "SFO", "co2": 550},
     {"from": "SFO", "to": "SEA", "co2": 120},
-    {"from": "SEA", "to": "LAX", "co2": 200}
+    {"from": "SEA", "to": "LAX", "co2": 200},
+    // Add YUL - Montreal Airport
+    // Add 5 routes from Montreal
+    {"from": "YUL", "to": "JFK", "co2": 500},
+    {"from": "YUL", "to": "SEA", "co2": 200},
+    {"from": "LAX", "to": "YUL", "co2": 300},
+    {"from": "YUL", "to": "DFW", "co2": 500},
+    {"from": "ORD", "to": "YUL", "co2": 400},
 ]
